@@ -1,6 +1,6 @@
 body {
     display: flex;
-    font-family: Roboto;
+    font-family: sans-serif;
     align-items: center;
     justify-content: center;
     height: 100vh;
@@ -21,17 +21,26 @@ body {
     display: flex;
     flex-wrap: wrap;
     margin: 0 0 20px;
+    background: #141b35;
     justify-content: center;
+}
+
+.game-mission {
+    font-size:25px;
+    color: #ffffff;
+    font-weight: bold;
+    text-align: center;
 }
 
 .game-status .game-data {
     margin: 5px;
     display: flex;
     color: #ffffff;
+    width: 90px;
     font-size: 25px;
     font-weight: bold;
     align-items: center;
-    justify-content: center;
+    flex-direction: column;
     font-variant: all-petite-caps;
 }
 
